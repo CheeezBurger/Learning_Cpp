@@ -14,7 +14,11 @@ int main(){
     //students++;   This adds only one.
     //students+=2;  This is the ideal one to use.
     //addition (+), subraction (-), multiplication (*), division (/).
-
+    //the modulus operator shows the remainder of a number. 
+    // int students = 20
+    // int remainder = students % 3;
+    // std::cout << remainder;
+    // This would produce 1, which is the remainder of 20 / 3.
 
     class1+=10;
     std::cout << class1 << '\n';
