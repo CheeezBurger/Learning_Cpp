@@ -1,7 +1,6 @@
 #include <iostream>
 
-
-int month(){
+int main(){
 
     int month;
     std::cout << "Enter the month (1-12): ";
@@ -48,15 +47,9 @@ int month(){
             std::cout << "Please enter in only numbers (1-12)" << '\n';
     }
 
-    return 0;
-}
-
-
-int grade(){
-    
     char grade;
 
-    std::cout << "What grade did you get? " << '\n';
+    std::cout << "What grade did you get? ";
     std::cin >> grade;
 
     switch(grade){
@@ -76,7 +69,7 @@ int grade(){
             std::cout << "You failed miserably." << '\n';
             break;
         case 'F':
-            std::cout << "You're a FAILIURE." << '\n';
+            std::cout << "You're a FAILURE." << '\n';
             break;
         default:
             std::cout << "Please only enter in a letter grade (A-F)." << '\n';
@@ -84,6 +77,3 @@ int grade(){
 
     return 0;
 }
-
-int x = 3;
-std::cout << x;
