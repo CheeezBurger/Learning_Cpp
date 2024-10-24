@@ -14,17 +14,23 @@ namespace second{
 }
 
 int main(){
-	int x = 3;
+	
+  int x = 0;
+
+  std::cout << x << '\n';   // This prints the value of x found in the main function.
   std::cout << first::x << '\n';   // This prints the value of x found in the "first" namespace.
   std::cout << second::x << '\n';  // This prints the value of x found in the "second" namespace.
-  std::cout << x << '\n';   // This prints the value of x found in the main function.
     
 	return 0;
 }
 
-int other(){
+/* Also can do it like this.
+
+int main(){
+
   using namepace first;
   std::cout << x;
 
   return 0;
 }
+*/
