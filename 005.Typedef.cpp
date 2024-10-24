@@ -13,16 +13,8 @@
     using std::vector<std::pair<std::string, int>> pairlist_t;
     */
 
-int example(){
-
-    pairlist_t pairlist;
-    
-    return 0;
-}
-
-typedef std::string text_t;  // This renames std::string as text_t
-using int num_t;
-
+using text_t = std::string;
+using num_t = int;
 
 int main() {
 
