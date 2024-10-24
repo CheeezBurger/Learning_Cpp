@@ -7,6 +7,8 @@ int main()
   return 0;
 }
 
+  // To make a text file in a c++ file, add .cpp at the end of the file name.
+
   //This is a comment. To make one, just use two //.
   
   /*
