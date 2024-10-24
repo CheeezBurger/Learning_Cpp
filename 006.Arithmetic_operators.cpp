@@ -37,7 +37,7 @@ int main(){
 
     int remainder = class5 % 3;
     std::cout << remainder << '\n';
-    // the remainder of 20 / 3
+    // The remainder of 20 / 3
 
     return 0;
 }
