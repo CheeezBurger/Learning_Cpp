@@ -1,7 +1,7 @@
 #include <iostream>
 
 // && = checks if two conditions are true (AND function)
-// || = checks if at least oneof two conditions is true (OR function)
+// || = checks if at least one of two conditions is true (OR function)
 // ! = reverses the logical state of its operand (if a condition is originally true, it becomes false - if a condition is originally false, it becomes true)
 
 int main()
