@@ -1,7 +1,7 @@
 #include <iostream>
 
-// IMPORTANT - When using this code, make sure to go to file, preferences, settings, and search for code runner. Look for 'run in terminal' and switch it on. 
-// This allows you to accept user input.
+// IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
+// This allows you to accept user input
 
 int main(){
 
@@ -10,7 +10,7 @@ int main(){
     std::cin >> month;
 
     switch(month){
-        case 1:     // Cases replace multiple 'else if' statements. They look cleaner and are easier to read.
+        case 1:     // Cases replace multiple 'else if' statements. They look cleaner and are easier to read
             std::cout << "It is January" << '\n';
             break;
         case 2:
@@ -46,10 +46,11 @@ int main(){
         case 12:
             std::cout << "It is December" << '\n';
             break;
-        default:    // Like an 'else' statement
-            std::cout << "Please enter in only numbers (1-12)" << '\n';
+        default:    // Like an 'else' statement - runs if all other cases were false
+            std::cout << "Please enter in only numbers 1-12" << '\n';
     }
 
+    
     char grade;
 
     std::cout << "What grade did you get? ";
@@ -60,7 +61,7 @@ int main(){
             std::cout << "You did great!"  << '\n';
             break;
         case 'B':
-            std::cout << "You did good." << '\n';
+            std::cout << "You did alright." << '\n';
             break;
         case 'C':
             std::cout << "You did average." << '\n';
@@ -75,7 +76,7 @@ int main(){
             std::cout << "You're a FAILURE." << '\n';
             break;
         default:
-            std::cout << "Please only enter in a letter grade (A-F)." << '\n';
+            std::cout << "Please only enter in a letter grade A-F." << '\n';
     }
 
     return 0;

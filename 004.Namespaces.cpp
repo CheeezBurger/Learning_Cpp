@@ -1,8 +1,9 @@
 #include <iostream>
-/* Namespaces provide a solution for preventing name conflicts in large projects. Each entity needs a different name. 
-   A namespace allows for iddentically named entities as lonog as the namespaces are different.
 
-*/
+/* Namespaces provide a solution for preventing name conflicts in large projects
+   Each entity needs a different name
+   A namespace allows for identically named entities as long as the namespaces are different
+  */
 
 
 namespace first{
@@ -17,14 +18,14 @@ int main(){
 	
   int x = 0;
 
-  std::cout << x << '\n';   // This prints the value of x found in the main function.
-  std::cout << first::x << '\n';   // This prints the value of x found in the "first" namespace.
-  std::cout << second::x << '\n';  // This prints the value of x found in the "second" namespace.
+  std::cout << x << '\n';   // This prints the value of x found in the main function
+  std::cout << first::x << '\n';   // This prints the value of x found in the "first" namespace
+  std::cout << second::x << '\n';  // This prints the value of x found in the "second" namespace
     
 	return 0;
 }
 
-/* Also can do it like this.
+/* Also can be done like this
 
 int main(){
 

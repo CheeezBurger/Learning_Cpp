@@ -1,6 +1,6 @@
 #include <iostream>
 
-    // Arithmetic operators return the result of a specific arimtic operation.
+    // Arithmetic operators return the result of a specific arimtic operation
     // (+ - * /)
 
 int main(){
@@ -11,13 +11,13 @@ int main(){
     int class4 = 20;
     int class5 = 20;
 
-    // students = students + 1;  This can be used, but is long
-    // students++;   This adds only one.
-    // students+=2;  This is the ideal one to use.
+    // "students = students + 1;" This can be used, but is long
+    // "students++;" This adds only one
+    // "students+=2;  This is the ideal one to use
 
-    // Addition (+), subraction (-), multiplication (*), division (/).
+    // Addition (+), subraction (-), multiplication (*), division (/)
 
-    // The modulus operator '%' shows the remainder of a number after it is divided by another number. 
+    // The modulus operator '%' shows the remainder of a number after it is divided by another number
 
     class1+=10;
     std::cout << class1 << '\n';

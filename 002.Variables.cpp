@@ -2,9 +2,9 @@
 
 int main()
 {
-    int x;      //Declaration
-    x = 5;      //Assignment of the variable's value.
-    int y = 6;       //You can also declare and assign a value all in one step.
+    int x;      // Declaration
+    x = 5;      // Assignment of the variable's value
+    int y = 6;       // You can also declare and assign a value all in one step
     int sum = x + y;
     
     std::cout << x << '\n' ;
@@ -14,11 +14,11 @@ int main()
 
     // There are different data types depending on what you need to store within a variable
     
-    // integer (can only store a whole number)
+    // Integer (can only store a whole number)
     int age = 13;
     int year = 2024;
     int cars = 54;
-        //These are all whole numbers
+        // These are all whole numbers
         
         
     std::cout << year << '\n';
@@ -37,14 +37,14 @@ int main()
 
     std::cout << currency << '\n';
 
-    // Boolean (True or False)
+    // boolean (true or false)
     bool student = true;
     bool power = false;
     bool sale = true;
 
     std::cout << power << '\n';
 
-    //String (Object that represents a sequence of text)
+    // string (object that represents a sequence of text)
     std::string name = "CheeezBurger";
     std::string day = "Thursday";
     std::string food = "Pizza";
@@ -53,9 +53,8 @@ int main()
     std::cout << address << '\n';
 
     std::cout << '\n';
-    std::cout << "Hello " << name << '\n';  //This prints hello and then the variable
+    std::cout << "Hello " << name << '\n';  // This prints hello and then the variable
     std::cout << "You are " << age << " years old." << '\n';
 
-    
     return 0;
 }

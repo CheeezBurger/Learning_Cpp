@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Ternary operator '?:' is a replacement for the if/else statement.
+// Ternary operator '?:' is a replacement for the if/else statement
 // condition ? expression1 : expression2;
 //               If true      If false
 int main()
@@ -11,13 +11,13 @@ int main()
 
     int number = 10;
     number % 2 == 1 ? std::cout << "ODD" << '\n' : std::cout << "Even" << '\n';
-    // If the number has a remainder of 1, it is odd. If not, it is even.
+    // If the number has a remainder of 1, it is odd. If not, it is even
 
     bool hungry = false;
     hungry ? std::cout << "You are hungry" << '\n' : std::cout << "You are full" << '\n';
     // To save space, you could also write it as:
     std::cout << (hungry ? "You are hungry" : "You are full") << '\n';
-    // This does the same thing, just shorter.
+    // This does the same thing, just shorter
 
     return 0;
 }
