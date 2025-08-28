@@ -1,5 +1,6 @@
 #include <iostream>
 
+// This program demonstrates type conversion in C++
 // Type conversion = Conversion of one type of data to another
 //                   Implicit = Automatic
 //                   Explicit = Precede value with new data type (e.g. "int")

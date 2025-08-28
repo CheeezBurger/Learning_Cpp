@@ -1,10 +1,11 @@
 #include <iostream>
 
-// IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
-// This allows you to accept user input
-
+// This program demonstrates the use of if, else if, and else statements in C++
 // If statements run code if a condition is true
 // If not, then don't run the code
+
+// IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
+// This allows you to accept user input
 
 int main(){
 

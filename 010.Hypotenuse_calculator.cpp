@@ -1,6 +1,9 @@
 #include <iostream>
 #include <cmath>
 
+// This program calculates the hypotenuse of a right triangle using the Pythagoras theorem
+// a^2 + b^2 = c^2
+
 // IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
 // This allows you to accept user input
 

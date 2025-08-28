@@ -1,5 +1,8 @@
 #include <iostream>
 
+// This program demonstrates the use of switch statements in C++
+// These are often used as a cleaner alternative to multiple 'else if' statements
+
 // IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
 // This allows you to accept user input
 
@@ -10,7 +13,7 @@ int main(){
     std::cin >> month;
 
     switch(month){
-        case 1:     // Cases replace multiple 'else if' statements. They look cleaner and are easier to read
+        case 1:
             std::cout << "It is January" << '\n';
             break;
         case 2:

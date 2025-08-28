@@ -1,10 +1,12 @@
 #include <iostream>
 
+// This program demonstrates the use of constants in C++
+// A constant is a variable whose value can only be changed at the declaration
+// Constants are useful for values that should not change throughout the program (e.g. Pi, gravity, etc.)
+// It is common practice to capitalise the variable name of a constant
+
 int main()
 {
-  // const" makes the variable read-only, the only way to change it is to change it at the source
-  // It is common practive to capitalise the variable name of a constant
-
   const double PI = 3.1415926372;
   double radius = 10;
   double circumferance = 2 * PI * radius;
@@ -12,7 +14,7 @@ int main()
 
   const int LIGHT_SPEED = 299792458;
   const double WIDTH = 1096;
-  const double HEIGH = 1275;
+  const double HEIGHT = 1275;
 
   std::cout << LIGHT_SPEED << '\n';
 

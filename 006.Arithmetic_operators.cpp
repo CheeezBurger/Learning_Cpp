@@ -1,7 +1,8 @@
 #include <iostream>
 
-    // Arithmetic operators return the result of a specific arimtic operation
-    // (+ - * /)
+// This program demonstrates the use of arithmetic operators in C++
+// Arithmetic operators return the result of a specific arithmetic operation
+// (+ - * /)
 
 int main(){
 

@@ -1,5 +1,7 @@
 #include <iostream>
 
+// This program is a simple calculator that takes two numbers and an operator as input, and outputs the result of the operation
+
 // IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
 // This allows you to accept user input
 

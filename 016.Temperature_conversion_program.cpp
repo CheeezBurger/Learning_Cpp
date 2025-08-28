@@ -1,5 +1,7 @@
 #include <iostream>
 
+// This program converts temperatures between Celsius and Fahrenheit
+
 int main(){
 
     double temp;

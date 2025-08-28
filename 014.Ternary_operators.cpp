@@ -1,8 +1,11 @@
 #include <iostream>
 
+// This program demonstrates the use of ternary operators in C++
+
 // Ternary operator '?:' is a replacement for the if/else statement
 // condition ? expression1 : expression2;
 //               If true      If false
+
 int main()
 {
     int grade = 75;

@@ -1,10 +1,9 @@
 #include <iostream>
 
-/* Namespaces provide a solution for preventing name conflicts in large projects
-   Each entity needs a different name
-   A namespace allows for identically named entities as long as the namespaces are different
-  */
-
+// This program demonstrates the use of namespaces in C++.
+// Namespaces are used to organize code into logical groups and to prevent name collisions in large projects
+// As each entity needs a different name
+// A namespace allows for identically named entities as long as the namespaces are different
 
 namespace first{
 	int x = 1;
@@ -25,7 +24,7 @@ int main(){
 	return 0;
 }
 
-/* Also can be done like this
+/* Can also be done like this:
 
 int main(){
 

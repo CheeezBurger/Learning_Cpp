@@ -1,6 +1,9 @@
 #include <iostream>
 #include <cmath>
 
+// This program demonstrates various mathematical functions in C++
+// Including max, min, power, square root, absolute value, rounding up and down
+
 int main(){
 
     double x = 3;

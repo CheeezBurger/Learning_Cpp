@@ -1,9 +1,13 @@
 #include <iostream>
 
+// This program demonstrates the basics of C++ programming
+
+// "std::cout" is used to output (print) text to the console/terminal
+
 int main()
 {
-  std::cout << "Hello World!" << '\n';    // In an output, a new line can also be made by adding \n to the end of the output text (e.g. "std::cout <<"Hello World\n";")
-  std::cout <<"Helooo Woorrllldddd" <<std::endl;
+  std::cout << "Hello World!" << '\n';    // A new line can also be made by adding \n to the end of the output text (e.g. "std::cout << "Hello World\n";")
+  std::cout <<"Helooo Woorrllldddd!";
 
   return 0;
 }

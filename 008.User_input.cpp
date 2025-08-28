@@ -1,10 +1,11 @@
 #include <iostream>
 
-// IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
-// This allows you to accept user input
-
+// This program demonstrates how to take user input in C++ using cin and getline
 // cout << (<< = insertion operator)
 // cin >> (>> = extraction operator)
+
+// IMPORTANT - When using this code, make sure to go to file > preferences > settings, and turn on "run in terminal"
+// This allows you to accept user input
 
 int main(){
     
