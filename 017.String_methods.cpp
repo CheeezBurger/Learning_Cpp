@@ -35,6 +35,9 @@ int main(){
     name.append("@outlook.com");   // ".append()" adds the string in the brackets to the end of the string before the dot
     std::cout << "Your email is: " << name << "\n";
 
+    name.erase (0, 1);  // ".erase()" removes the string from the first argument index to the second argument index (not inclusive)
+    std::cout << "Your name is: " << name << "\n";
+
     name.clear();          // ".clear()" clears the string, making it empty
     std::cout << "Your name is: " << name << "\n";
 
